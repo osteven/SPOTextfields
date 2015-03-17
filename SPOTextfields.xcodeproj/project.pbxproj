@@ -13,6 +13,11 @@
 		B0CFC3A91AB8AEB8003AC8BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CFC3A81AB8AEB8003AC8BB /* Images.xcassets */; };
 		B0CFC3AC1AB8AEB8003AC8BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0CFC3AA1AB8AEB8003AC8BB /* LaunchScreen.xib */; };
 		B0CFC3B81AB8AEB8003AC8BB /* SPOTextfieldsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CFC3B71AB8AEB8003AC8BB /* SPOTextfieldsTests.swift */; };
+		B0CFC3C61AB8B0A2003AC8BB /* ColorizerTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CFC3C11AB8B0A2003AC8BB /* ColorizerTextFieldDelegate.swift */; };
+		B0CFC3C71AB8B0A2003AC8BB /* DollarTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CFC3C21AB8B0A2003AC8BB /* DollarTextFieldDelegate.swift */; };
+		B0CFC3C81AB8B0A2003AC8BB /* EmojiTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CFC3C31AB8B0A2003AC8BB /* EmojiTextFieldDelegate.swift */; };
+		B0CFC3C91AB8B0A2003AC8BB /* RandomColorTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CFC3C41AB8B0A2003AC8BB /* RandomColorTextFieldDelegate.swift */; };
+		B0CFC3CA1AB8B0A2003AC8BB /* ZipCodeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CFC3C51AB8B0A2003AC8BB /* ZipCodeDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		B0CFC3B11AB8AEB8003AC8BB /* SPOTextfieldsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPOTextfieldsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CFC3B61AB8AEB8003AC8BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0CFC3B71AB8AEB8003AC8BB /* SPOTextfieldsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPOTextfieldsTests.swift; sourceTree = "<group>"; };
+		B0CFC3C11AB8B0A2003AC8BB /* ColorizerTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorizerTextFieldDelegate.swift; sourceTree = "<group>"; };
+		B0CFC3C21AB8B0A2003AC8BB /* DollarTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DollarTextFieldDelegate.swift; sourceTree = "<group>"; };
+		B0CFC3C31AB8B0A2003AC8BB /* EmojiTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiTextFieldDelegate.swift; sourceTree = "<group>"; };
+		B0CFC3C41AB8B0A2003AC8BB /* RandomColorTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomColorTextFieldDelegate.swift; sourceTree = "<group>"; };
+		B0CFC3C51AB8B0A2003AC8BB /* ZipCodeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipCodeDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,11 @@
 				B0CFC3A51AB8AEB8003AC8BB /* Main.storyboard */,
 				B0CFC3A81AB8AEB8003AC8BB /* Images.xcassets */,
 				B0CFC3AA1AB8AEB8003AC8BB /* LaunchScreen.xib */,
+				B0CFC3C11AB8B0A2003AC8BB /* ColorizerTextFieldDelegate.swift */,
+				B0CFC3C21AB8B0A2003AC8BB /* DollarTextFieldDelegate.swift */,
+				B0CFC3C31AB8B0A2003AC8BB /* EmojiTextFieldDelegate.swift */,
+				B0CFC3C41AB8B0A2003AC8BB /* RandomColorTextFieldDelegate.swift */,
+				B0CFC3C51AB8B0A2003AC8BB /* ZipCodeDelegate.swift */,
 				B0CFC39F1AB8AEB8003AC8BB /* Supporting Files */,
 			);
 			path = SPOTextfields;
@@ -213,7 +228,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0CFC3A41AB8AEB8003AC8BB /* ViewController.swift in Sources */,
+				B0CFC3CA1AB8B0A2003AC8BB /* ZipCodeDelegate.swift in Sources */,
+				B0CFC3C81AB8B0A2003AC8BB /* EmojiTextFieldDelegate.swift in Sources */,
+				B0CFC3C61AB8B0A2003AC8BB /* ColorizerTextFieldDelegate.swift in Sources */,
+				B0CFC3C71AB8B0A2003AC8BB /* DollarTextFieldDelegate.swift in Sources */,
 				B0CFC3A21AB8AEB8003AC8BB /* AppDelegate.swift in Sources */,
+				B0CFC3C91AB8B0A2003AC8BB /* RandomColorTextFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
